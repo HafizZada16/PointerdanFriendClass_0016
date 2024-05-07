@@ -29,7 +29,7 @@ void siswa::displayAll(orang &a)
 }
 void orang::setNama(string pNama)
 {
-    Nama = pId;
+    Nama = pNama;
 }
 void siswa::setId(int pId)
 {
