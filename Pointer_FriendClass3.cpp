@@ -6,7 +6,7 @@ class siswa;
 class orang
 {
 private:
-    string nama;
+    string Nama;
 
 public:
     void setNama(string pNama);
@@ -26,4 +26,13 @@ public:
 void siswa::displayAll(orang &a)
 {
     cout << Id << endl;
-};
+}
+void orang::setNama(string pNama)
+{
+    Nama = pId;
+}
+void siswa::setId(int pId)
+{
+    Id = pId;
+}
+
