@@ -11,7 +11,7 @@ class mahasiswa{
 
 int main(){
 
-    mahasiswa mhs(1);
+    mahasiswa mhs{1};
     mhs.shownim();
 
     mahasiswa &refMhs = mhs;
