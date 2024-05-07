@@ -5,22 +5,21 @@ class pelajar;
 class manusia
 {
 public:
-    void showNilaiPelajar(pelajar &a);
+    void showNilaiPelajar(pelajar &x);
 };
 
 class pelajar
 {
 private:
-    int nilai:
-
+    int nilai;
 public:
     pelajar() { nilai = 100; }
-    friend void manusia::showNilaiPelajar(pelajar &a);
+    friend void manusia::showNilaiPelajar(pelajar &x);
 };
 
-void manusia::showNilaiPelajar(pelajar &a)
+void manusia::showNilaiPelajar(pelajar &x)
 {
-    cout << a.nilai;
+    cout << x.nilai;
 }
 
 int main()
