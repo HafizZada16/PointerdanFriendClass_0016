@@ -25,7 +25,7 @@ public:
 
 void siswa::displayAll(orang &a)
 {
-    cout << Id << endl;
+    cout << Id << endl << a.Nama;
 }
 void orang::setNama(string pNama)
 {
@@ -41,7 +41,7 @@ int main()
     orang joko;
     joko.setNama("Joko susilo");
     siswa joko_siswa;
-    joko_siswa.setId{1};
-    joko_siswa.displayAll{joko};
+    joko_siswa.setId(1);
+    joko_siswa.displayAll(joko);
     return 0;
 }
